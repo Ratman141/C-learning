@@ -42,7 +42,11 @@ int main(){
     if(op == '+') answer = A+B;
     else if(op == '-') answer = A-B;
     else if(op == '*') answer = A*B;
-    else answer = A/B;
+    else if(op == '/') answer = A/B;
+    else {
+        cout<<"Invalid argument"<<endl;
+        return 0;
+    }
 
     cout<<A<<op<<B<<" = "<<answer<<endl;
 
