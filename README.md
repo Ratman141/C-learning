@@ -9,3 +9,5 @@ It's a collection of small programs, experiments, and examples as I explore C++ 
 - Hello World
 - Calculator
 - Guessing Game
+- Notepad
+  
