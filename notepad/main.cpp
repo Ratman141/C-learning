@@ -15,6 +15,7 @@ int main(){
     cin>>rw;
     cout<<endl;
     fstream file;
+    
     file.open("siurek.txt", ios::in | ios::app |ios::out);
     if(rw == 'r'){
         stringstream variable;
